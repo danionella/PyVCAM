@@ -1,5 +1,9 @@
 # PyVCAM Wrapper
 
+> This fork is deprecated. Photometrics has since incorporated the live-mode
+> queue fix from PR #45 while closing issue #35, so downstream users should
+> install the maintained upstream package from PyPI instead of using this fork.
+
 - [PyVCAM Wrapper](#pyvcam-wrapper)
   * [src](#src)
   * [pyvcam](#pyvcam)

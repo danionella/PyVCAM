@@ -1,5 +1,9 @@
 # PyVCAM Wrapper
 
+> This fork is deprecated. Photometrics has since incorporated the live-mode
+> queue fix from PR #45 while closing issue #35, so downstream users should
+> install the maintained upstream package from PyPI instead of using this fork.
+
 PyVCAM Wrapper is a Python3.X wrapper for the PVCAM SDK.
 
 ## Getting Started
@@ -15,8 +19,12 @@ Follow the instructions below to get PyVCAM up and running on your machine for d
 
 
 ### Installing
-When you are ready to install the wrapper use your command prompt to navigate into the directory that contains 
-setup.py and run ```python setup.py install``` 
+Use the maintained upstream release from Photometrics instead of installing this
+fork from source:
+
+```bash
+python -m pip install --upgrade PyVCAM
+```
 
 
 ### How to use the wrapper
