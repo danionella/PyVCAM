@@ -1,5 +1,5 @@
 [[Installation]]
-python setup.py install
+python -m pip install --upgrade PyVCAM
 
 [[Camera Class]]
 
