@@ -20,5 +20,5 @@ class DeprecatedForkTests(unittest.TestCase):
             sys.modules.pop("pyvcam", None)
             sys.path.remove(str(SRC_DIR))
 
-        self.assertTrue(caught)
+        self.assertGreater(len(caught), 0)
         self.assertIn("Photometrics release from PyPI", str(caught[0].message))
